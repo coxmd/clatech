@@ -10,22 +10,8 @@ class Banner extends Component {
                     <div className="row align-items-center">
                         <div className="col-md-12 col-xl-6 col-lg-6">
                             <div className="banner-content">
-                                <h1>Distant learning for further expansion </h1>
-                                <p>The ultimate planning solution for people who want to reach their personal goals Effortless comfortable.</p>
-                                
-                                <div className="banner-form me-5">
-                                    <form action="#" className="form">
-                                        <input type="text" className="form-control" placeholder="What do you want to learn?"/>
-                                        <Link to="#"> Search<i className="far fa-search"></i></Link>
-                                    </form>
-                                </div>
-                               <div className="category-name">
-                                   <span>Popular:</span>
-                                   <Link to="#">Design ,</Link>
-                                   <Link to="#">Development ,</Link>
-                                   <Link to="#">Marketing ,</Link>
-                                   <Link to="#">Affiliate</Link>
-                               </div>
+                                <h1>Empowering Kids with Coding Skills </h1>
+                                <p>Join our fun and interactive coding classes designed specifically for children. Learn, create, and innovate with us!</p>
                             </div>
                         </div>
             

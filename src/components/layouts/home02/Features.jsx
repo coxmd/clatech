@@ -8,22 +8,22 @@ class Features extends Component {
                 {
                     id: 1,
                     icon: 'fad fa-users',
-                    title: 'Get Certificate',
-                    text: 'Lorem ipsum dolor seat ameat dui too consecteture',
+                    title: 'Earn Certificates',
+                    text: 'Complete courses and earn certificates to show your coding skills!',
                     extraClassName: 'icon-bg-1',
                 },
                 {
                     id: 2,
                     icon: 'far fa-file-certificate',
-                    title: 'Skilled Instructors',
-                    text: 'Lorem ipsum dolor seat ameat dui too consecteture',
+                    title: 'Expert Instructors',
+                    text: 'Learn from experienced instructors who make coding fun and easy.',
                     extraClassName: 'icon-bg-2',
                 },
                 {
                     id: 3,
                     icon: 'fa fa-video',
-                    title: 'Online Classes',
-                    text: 'Lorem ipsum dolor seat ameat dui too consecteture',
+                    title: 'Interactive Classes',
+                    text: 'Join live classes and interactive sessions to enhance your learning.',
                     extraClassName: 'icon-bg-3',
                 },
                 

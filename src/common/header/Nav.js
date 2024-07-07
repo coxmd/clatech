@@ -16,12 +16,8 @@ const Nav = () => {
   const [menuItems, setMenuItems] = useState([
     {
         label: 'Home',
-        link: '#',
+        link: '/',
         class: 'current',
-        submenu: [
-          { label: 'Home One', link: '/' },
-          { label: 'Home Two', link: '/home-2'},
-        ],
         submenuOpen: false, 
     },
     {
@@ -31,32 +27,32 @@ const Nav = () => {
     },
     {
       label: 'Courses',
-      link: '#',
-      submenu: [
-        { label: 'Courses', link: '/course-1' },
-        { label: 'Course Grid 2 ', link: '/course-2' },
-        { label: 'Course Grid 3', link: '/course-3' },
-        { label: 'Course Grid 4', link: '/course-4' },
-        { label: 'Course List', link: '/course-list' },
-        { label: 'Course Single 1', link: '/course-details/1' },
-        { label: 'Course Single 2', link: '/course-details-two/2' },
-      ],
+      link: '/course-1',
+      //submenu: [
+        // { label: 'Courses', link: '/course-1' },
+        // { label: 'Course Grid 2 ', link: '/course-2' },
+        // { label: 'Course Grid 3', link: '/course-3' },
+        // { label: 'Course Grid 4', link: '/course-4' },
+        // { label: 'Course List', link: '/course-list' },
+        // { label: 'Course Single 1', link: '/course-details/1' },
+        // { label: 'Course Single 2', link: '/course-details-two/2' },
+      //],
     },
-    {
-        label: 'Pages',
-        link: '#',
-        submenu: [
-          { label: 'Instructors', link: '/instructors'},
-          { label: 'Login', link: '/login' },
-          { label: 'Register', link: '/register' },
-        ],
-        submenuOpen: false, 
-    },
-    {
-        label: 'Blog',
-        link: '/blog',
+    // {
+    //     label: 'Pages',
+    //     link: '#',
+    //     submenu: [
+    //       { label: 'Instructors', link: '/instructors'},
+    //       { label: 'Login', link: '/login' },
+    //       { label: 'Register', link: '/register' },
+    //     ],
+    //     submenuOpen: false, 
+    // },
+    // {
+    //     label: 'Blog',
+    //     link: '/blog',
         
-    },
+    // },
     {
         label: 'Contact',
         link: '/contact',

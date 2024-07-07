@@ -42,8 +42,8 @@ class Counter extends Component {
                     <div className="row align-items-center justify-content-center" >
                         <div className="col-xl-5 pr-xl-5 col-lg-8">
                             <div className="section-heading mb-5 mb-xl-0 text-center text-xl-start">
-                                <span className="subheading">10,000+ Trusted Clients All Over The World</span>
-                                <h2 className="font-lg">Some reasons why Start Your Online Learning with Us</h2>
+                                <span className="subheading">Join Thousands of Young Coders Worldwide</span>
+                                <h2 className="font-lg">Why Start Your Coding Journey with Us</h2>
                             </div>
                         </div>
 

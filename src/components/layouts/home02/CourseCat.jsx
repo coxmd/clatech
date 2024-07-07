@@ -9,46 +9,44 @@ class CourseCat01 extends Component {
             category: [
                 {
                     id: 1,
-                    title: 'Data Science & Analytics',
+                    title: 'Introduction to Coding',
                     img :  'assets/images/icon/icon1.png',
                 },
                 {
                     id: 2,
-                    title: 'Artificial Intellegence',
+                    title: 'Scratch Programming',
                     img :  'assets/images/icon/icon2.png',
                 },
                 {
                     id: 3,
-                    title: 'Algebra Math calculation',
+                    title: 'Building Simple Games',
                     img :  'assets/images/icon/icon6.png',
                 },
                 {
                     id: 4,
-                    title: 'Web Development',
+                    title: 'Web Development Basics',
                     img :  'assets/images/icon/icon4.png',
                 },
                 {
                     id: 5,
-                    title: 'Digital Marketing & SEO',
+                    title: 'Robotics for Kids',
                     img :  'assets/images/icon/icon6.png',
                 },
                 {
                     id: 6,
-                    title: 'Health & Fitness',
+                    title: 'Python for Beginners',
                     img :  'assets/images/icon/icon2.png',
                 }, 
                 {
                     id: 7,
-                    title: 'Marketing',
+                    title: 'App Development',
                     img :  'assets/images/icon/icon3.png',
                 }, 
                 {
                     id: 8,
-                    title: 'Photography',
+                    title: 'Creative Coding with Art',
                     img :  'assets/images/icon/icon4.png',
                 },
-                
-                
             ]
         }
     }
