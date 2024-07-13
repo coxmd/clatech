@@ -69,12 +69,12 @@ const CourseDetails = () => {
     const data = CourseData.filter( course => course.id === courseId );
     const courseItem = data[0];
 
-    const indexOfInstructor = InstructorData.findIndex( function( instructor ) {
-        return slugify( instructor.name ) === slugify( courseItem.instructor );
-    } );
-    const instructor = InstructorData[indexOfInstructor];
-    const instructorExcerpt = instructor.details.substring(0, 190) + "...";
-    const instructorThumb = InstructorData[indexOfInstructor].image;
+    // const indexOfInstructor = InstructorData.findIndex( function( instructor ) {
+    //     return slugify( instructor.name ) === slugify( courseItem.instructor );
+    // } );
+    // const instructor = InstructorData[indexOfInstructor];
+    // const instructorExcerpt = instructor.details.substring(0, 190) + "...";
+    // const instructorThumb = InstructorData[indexOfInstructor].image;
 
     const [contentTab, setContentTab] = useState( 'overview' );
     const handleTab = ( content ) => {
@@ -82,11 +82,12 @@ const CourseDetails = () => {
             setContentTab( 'overview' );
         } else if ( content === 'curriculum' ) {
             setContentTab( 'curriculum' );
-        } else if ( content === 'instructor' ) {
-            setContentTab( 'instructor' );
-        } else if ( content === 'reviews' ) {
-            setContentTab( 'reviews' );
         }
+        // } else if ( content === 'instructor' ) {
+        //     setContentTab( 'instructor' );
+        // } else if ( content === 'reviews' ) {
+        //     setContentTab( 'reviews' );
+        // }
     }
 
     return (
@@ -100,10 +101,10 @@ const CourseDetails = () => {
 
                                     <div className="course-meta-info mb-4">
                                         <div className="d-flex align-items-center">
-                                            <div className="author me-4">
+                                            {/* <div className="author me-4">
                                                 <img src={`${process.env.PUBLIC_URL}/assets/images/instructor/${instructorThumb}`} alt="" className="img-fluid"/>
                                                 By <a href="/">{courseItem.instructor}</a>
-                                            </div>
+                                            </div> */}
 
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <span><i className="ri-bar-chart-2-line me-2"></i></span>
@@ -146,7 +147,7 @@ const CourseDetails = () => {
                                                 Curriculum
                                             </a>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <a  
                                                 className={contentTab === 'instructor' ? 'nav-link active' : 'nav-link'}
                                                 type="button"
@@ -164,7 +165,7 @@ const CourseDetails = () => {
                                             >
                                                 Reviews
                                             </a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </nav>
 
@@ -188,6 +189,7 @@ const CourseDetails = () => {
                                     }
                                     
                                     {/*  INstructor Tab */}
+                                    {/*  
                                     { contentTab === 'instructor' && 
                                         <div className={`tab-pane fade show ${contentTab === 'instructor' ? 'active' : '' } `}>
                                             <div className="course-tab-content">
@@ -221,13 +223,13 @@ const CourseDetails = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {/* COURSE AUTHOR END */}
                                             </div>
                                         </div>
                                     }
-
+                                    */}
+                                    
                                     {/*  Review TAb */}
-
+                                    {/* 
                                     { contentTab === 'reviews' && 
                                         <div className={`tab-pane fade show ${contentTab === 'reviews' ? 'active' : '' } `}>
                                         <div className="course-tab-content">
@@ -267,6 +269,7 @@ const CourseDetails = () => {
                                         </div>
                                     </div>
                                     }
+                                    */}
                                 </div>
                             </div>
 

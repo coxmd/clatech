@@ -13,9 +13,9 @@ const HomeTwo =() =>  {
                     <Counter />
                     <CourseGridPopular />
                     <Cta />
-                    <Process />
+                    {/* <Process />
                     <Review />
-                    <About />
+                    <About /> */}
             <FooterTwo />
         </div>
     );

@@ -21,11 +21,6 @@ const Nav = () => {
         submenuOpen: false, 
     },
     {
-        label: 'About',
-        link: '/about',
-        
-    },
-    {
       label: 'Courses',
       link: '/course-1',
       //submenu: [

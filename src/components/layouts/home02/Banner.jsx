@@ -10,8 +10,8 @@ class Banner extends Component {
                     <div className="row align-items-center">
                         <div className="col-md-12 col-xl-6 col-lg-6">
                             <div className="banner-content">
-                                <h1>Empowering Kids with Coding Skills </h1>
-                                <p>Join our fun and interactive coding classes designed specifically for children. Learn, create, and innovate with us!</p>
+                                <h1>Your Affordable Gateway to a Tech Career in Kenya</h1>
+                                <p>Fuel your passion for technology and launch a fulfilling career with CLA TECH ACADEMY, your one-stop platform for mastering in-demand skills – virtually and affordably!</p>
                             </div>
                         </div>
             

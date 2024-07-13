@@ -8,26 +8,38 @@ class Features extends Component {
                 {
                     id: 1,
                     icon: 'fad fa-users',
-                    title: 'Earn Certificates',
-                    text: 'Complete courses and earn certificates to show your coding skills!',
+                    title: 'Learn from Anywhere',
+                    text: ' Our courses are entirely virtual, allowing you to gain valuable tech skills from the comfort of your home or anywhere with an internet connection.',
                     extraClassName: 'icon-bg-1',
                 },
                 {
                     id: 2,
                     icon: 'far fa-file-certificate',
-                    title: 'Expert Instructors',
-                    text: 'Learn from experienced instructors who make coding fun and easy.',
+                    title: 'Unbeatable Value',
+                    text: 'CLA TECH ACADEMY offers some of the most affordable courses in Kenya, starting at just Ksh 10,000 – significantly lower than competitors like ALX.  We also understand that financial barriers exist, so we offer scholarships to deserving students.',
                     extraClassName: 'icon-bg-2',
                 },
                 {
                     id: 3,
                     icon: 'fa fa-video',
-                    title: 'Interactive Classes',
-                    text: 'Join live classes and interactive sessions to enhance your learning.',
+                    title: 'Master Industry-Relevant Skills:',
+                    text: 'Our curriculum is meticulously crafted by industry veterans, ensuring you learn the most in-demand and up-to-date skills.  Choose from comprehensive programs (12-20 weeks) or fast-track your learning with intensive bootcamps (6-8 weeks)',
                     extraClassName: 'icon-bg-3',
                 },
-                
-                
+                {
+                    id: 4,
+                    icon: 'fa fa-video',
+                    title: 'Become Certified:',
+                    text: 'Validate your skills and impress potential employers with industry-recognized certifications offered upon program completion (available on select programs)',
+                    extraClassName: 'icon-bg-3',
+                },
+                {
+                    id: 5,
+                    icon: 'fa fa-video',
+                    title: 'Build Your Portfolio & Network:',
+                    text: 'Gain invaluable hands-on experience by working on real-world projects throughout your courses. Showcase your accomplishments in a polished professional portfolio to stand out from the crowd.  Connect and learn from fellow learners, instructors, and industry professionals through our vibrant online community',
+                    extraClassName: 'icon-bg-3',
+                },
             ]
         }
     }

@@ -9,44 +9,34 @@ class CourseCat01 extends Component {
             category: [
                 {
                     id: 1,
-                    title: 'Introduction to Coding',
+                    title: 'Programming Languages',
                     img :  'assets/images/icon/icon1.png',
                 },
                 {
                     id: 2,
-                    title: 'Scratch Programming',
+                    title: 'Web Development',
                     img :  'assets/images/icon/icon2.png',
                 },
                 {
                     id: 3,
-                    title: 'Building Simple Games',
+                    title: 'Data Science & Analytics',
                     img :  'assets/images/icon/icon6.png',
                 },
                 {
                     id: 4,
-                    title: 'Web Development Basics',
+                    title: 'Cybersecurity',
                     img :  'assets/images/icon/icon4.png',
                 },
                 {
                     id: 5,
-                    title: 'Robotics for Kids',
+                    title: 'Software Development',
                     img :  'assets/images/icon/icon6.png',
                 },
                 {
                     id: 6,
-                    title: 'Python for Beginners',
+                    title: 'Digital Marketing',
                     img :  'assets/images/icon/icon2.png',
                 }, 
-                {
-                    id: 7,
-                    title: 'App Development',
-                    img :  'assets/images/icon/icon3.png',
-                }, 
-                {
-                    id: 8,
-                    title: 'Creative Coding with Art',
-                    img :  'assets/images/icon/icon4.png',
-                },
             ]
         }
     }

@@ -19,7 +19,7 @@ class Cta extends Component {
 
                                 <div className="col-xl-4 col-lg-4 col-md-6">
                                     <div className="text-center text-md-end">
-                                        <Link to="#" className="btn btn-main rounded">Get started</Link>
+                                        <Link to="course-1" className="btn btn-main rounded">Get started</Link>
                                     </div>
                                 </div>
                             </div>

@@ -6,14 +6,14 @@ class Counter extends Component {
         super(props);
         this.state = {
             counter: [
-                {
-                    id: 1,
-                    icon: 'flaticon-man',
-                    title: '200',
-                    suffix: 'k',
-                    text: 'Students',
-                    extraClassName: 'bg-1',
-                },
+                // {
+                //     id: 1,
+                //     icon: 'flaticon-man',
+                //     title: '200',
+                //     suffix: 'k',
+                //     text: 'Students',
+                //     extraClassName: 'bg-1',
+                // },
                 {
                     id: 2,
                     icon: 'flaticon-infographic',
@@ -42,8 +42,8 @@ class Counter extends Component {
                     <div className="row align-items-center justify-content-center" >
                         <div className="col-xl-5 pr-xl-5 col-lg-8">
                             <div className="section-heading mb-5 mb-xl-0 text-center text-xl-start">
-                                <span className="subheading">Join Thousands of Young Coders Worldwide</span>
-                                <h2 className="font-lg">Why Start Your Coding Journey with Us</h2>
+                                <span className="subheading">Join Thousands of Learners Worldwide</span>
+                                <h2 className="font-lg">Why Choose CLA TECH ACADEMY?</h2>
                             </div>
                         </div>
 
