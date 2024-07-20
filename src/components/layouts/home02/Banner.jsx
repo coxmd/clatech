@@ -17,7 +17,7 @@ class Banner extends Component {
             
                         <div className="col-md-12 col-xl-6 col-lg-6">
                             <div className="banner-img-round mt-5 mt-lg-0">
-                                <img src="assets/images/banner/banner_img.png" alt="" className="img-fluid"/>
+                                <img src="assets/images/banner/banner-people.jpg" alt="people learning on laptop" className="img-fluid" style={{ borderRadius: '15px' }}/>
                             </div>
                         </div>
                     </div>

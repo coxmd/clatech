@@ -11,38 +11,42 @@ const FooterTwo = () => {
                     <div className="row">
                         <div className="col-xl-3 me-auto col-sm-8">
                             <div className="footer-logo mb-3">
-                                <img src="assets/images/logo-white.png" alt="" className="img-fluid"/>
+                                <img src="assets/images/logoclawhite.png" alt="" className="img-fluid"/>
                             </div>
+                            {/*
                             <div className="widget footer-widget mb-5 mb-lg-0">				
                                 <p>Edumel is a Bootstrap Template for online courses
                                     education websites support multiple courses</p>
                             </div>
+                            */}
                         </div>
 
                         <div className="col-xl-2 col-sm-4">
                             <div className="footer-widget mb-5 mb-xl-0">
                                 <h5 className="widget-title">Explore</h5>
                                 <ul className="list-unstyled footer-links">
-                                    <li><Link to="#">About us</Link></li>
+                                    <li><Link to="#">Home</Link></li>
+                                    <li><Link to="#">Courses</Link></li>
                                     <li><Link to="#">Contact us</Link></li>
-                                    <li><Link to="#">Services</Link></li>
-                                    <li><Link to="#">Support</Link></li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-xl-2 col-sm-4">
+                        <div className="col-xl-3 col-sm-4">
                             <div className="footer-widget mb-5 mb-xl-0">
                                 <h5 className="widget-title ">Categories</h5>
                                 <ul className="list-unstyled footer-links">
-                                    <li><Link to="#">SEO Business</Link></li>
-                                    <li><Link to="#">Digital Marketing</Link></li>
-                                    <li><Link to="#">Graphic Design</Link></li>
-                                    <li><Link to="#">Social Marketing</Link></li>
+                                    <li><Link to="/course-details/1">Programming Languages</Link></li>
+                                    <li><Link to="/course-details/2">Web Development</Link></li>
+                                    <li><Link to="/course-details/3">Data Science & Analytics</Link></li>
+                                    <li><Link to="/course-details/4">CyberSecurity</Link></li>
+                                    <li><Link to="/course-details/5">Software Development</Link></li>
+                                    <li><Link to="/course-details/6">Digital Marketing</Link></li>
                                 </ul>
                             </div>
                         </div>
 
+                        {/*
                         <div className="col-xl-2 col-sm-4">
                             <div className="footer-widget mb-5 mb-xl-0">
                                 <h5 className="widget-title">Links</h5>
@@ -54,26 +58,29 @@ const FooterTwo = () => {
                                 </ul>
                             </div>
                         </div>
+                        */}
 
                         <div className="col-xl-2 col-sm-4">
                             <div className="footer-widget mb-5 mb-xl-0">
                                 <h5 className="widget-title">Address</h5>
                                 <ul className="list-unstyled footer-links">
-                                    <li><h6 className="text-white">Phone</h6><Link to="#">+0800 327 8534</Link></li>
-                                    <li><h6 className="text-white">Email</h6><Link to="#">support@tutori.com</Link></li>
+                                    <li><h6 className="text-white">Phone</h6><Link to="#">070000000</Link></li>
+                                    <li><h6 className="text-white">Email</h6><Link to="#">support@clatechacademy.com</Link></li>
                                 </ul>
+                                {/*
                                 <div className="footer-socials mt-4">
                                     <Link to="#"><i className="fab fa-facebook-f"></i></Link>
                                     <Link to="#"><i className="fab fa-twitter"></i></Link>
                                     <Link to="#"><i className="fab fa-linkedin-in"></i></Link>
                                     <Link to="#"><i className="fab fa-pinterest"></i></Link>
                                 </div>
+                                */}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            {/*
             <div className="footer-btm">
                 <div className="container">
                     <div className="row align-items-center">
@@ -90,7 +97,7 @@ const FooterTwo = () => {
                     </div>
                 </div>
             </div>
-
+            */}
             <div className="fixed-btm-top">
                 <Link to="#top-header" className="js-scroll-trigger scroll-to-top"><i className="fa fa-angle-up"></i></Link>
             </div>

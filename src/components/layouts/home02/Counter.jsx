@@ -37,7 +37,7 @@ class Counter extends Component {
     render() {
         return (
 
-            <section className="counter-section-2">
+            <section className="counter-section-2" style={{ marginTop: '100px' }}>
                 <div className="container">
                     <div className="row align-items-center justify-content-center" >
                         <div className="col-xl-5 pr-xl-5 col-lg-8">

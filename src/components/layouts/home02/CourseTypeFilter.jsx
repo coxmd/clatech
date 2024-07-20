@@ -8,7 +8,7 @@ const CourseTypeFilter = ( { itemToShow} ) => {
     const FilterControls = [...new Set( CourseData.map( item => item.filterParam ) ) ];
     FilterControls.unshift( 'All' );
     
-    const numberOfCourses = itemToShow || 8;
+    const numberOfCourses = itemToShow || 6;
     const [dataVisibleCount] = useState( numberOfCourses );
 
     const [activeFilter, setActiveFilter] = useState( '' );

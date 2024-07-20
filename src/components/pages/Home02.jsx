@@ -9,7 +9,7 @@ const HomeTwo =() =>  {
             <HeaderTwo />       
                     <Banner />
                     <Features />
-                    <CourseCat01 />
+                    {/*<CourseCat01 />*/}
                     <Counter />
                     <CourseGridPopular />
                     <Cta />

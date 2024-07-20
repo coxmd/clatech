@@ -8,20 +8,20 @@ const CourseInfo = ( { data }) => {
 
         <div className="course-sidebar course-sidebar-2 mt-5 mt-lg-0">
             <div className="course-widget course-details-info">
-                <div className="video-area">
-                    <div className="thumbnail video-popup-wrapper course-thumbnail">
-                        <img className="radius-small w-100" src={`${process.env.PUBLIC_URL}/assets/images/course/video-bg/${data.image}`} alt="Course Video Thumb" />
+                <div className="" style={{marginBottom: "50px"}}>
+                    <div className="">
+                        <img className="radius-small w-100" src={`${process.env.PUBLIC_URL}/assets/images/course/course-01/${data.image}`} alt="Course Video Thumb" />
                
-                        <button onClick={ () => setToggler( ! toggler ) } className="video-play-btn position-to-top video-popup-activation">
+                        {/*<button onClick={ () => setToggler( ! toggler ) } className="video-play-btn position-to-top video-popup-activation">
                             <span className="play-icon"></span>
                         </button>
-                        <FsLightbox toggler={ toggler } sources={ data.videoLink } />
+    <FsLightbox toggler={ toggler } sources={ data.videoLink } /> */}
                     </div>
                 </div>
                
                 <div className="price-header">
-                    <h2 className="course-price">{ data.price === '0' ? 'Free' : data.price } <span>{data.oldPrice}</span></h2>
-                    <span className="course-price-badge onsale">39% off</span>
+                    <h2 className="course-price">Ksh { data.price === '0' ? 'Free' : data.price } {/*<span>Ksh {data.oldPrice}</span>*/}</h2>
+                    {/*<span className="course-price-badge onsale">39% off</span> */}
                 </div>
 
                 <ul className="course-sidebar-list">

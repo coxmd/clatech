@@ -110,7 +110,8 @@ const CourseDetails = () => {
                                                 <span><i className="ri-bar-chart-2-line me-2"></i></span>
                                                 {courseItem.level}
                                             </div>
-
+                                            
+                                            {/*
                                             <div className="rating review-stars-rated ms-4">
                                                 <i className="ri-star-fill"></i>
                                                 <i className="ri-star-fill"></i>
@@ -119,6 +120,7 @@ const CourseDetails = () => {
                                                 <i className="ri-star-half-line"></i>
                                                 <span className="ms-2">({courseItem.review} Reviews)</span>
                                             </div>
+                                            */}
                                         </div>
                                     </div>
 
@@ -137,6 +139,7 @@ const CourseDetails = () => {
                                                 Overview
                                             </a>
                                         </li>
+                                        {/*
                                         <li className="nav-item">
                                             <a  
                                                 className={contentTab === 'curriculum' ? 'nav-link active' : 'nav-link'}
@@ -147,6 +150,7 @@ const CourseDetails = () => {
                                                 Curriculum
                                             </a>
                                         </li>
+                                        */}
                                         {/* <li className="nav-item">
                                             <a  
                                                 className={contentTab === 'instructor' ? 'nav-link active' : 'nav-link'}
@@ -179,7 +183,7 @@ const CourseDetails = () => {
                                         </div>
                                     }
 
-                                    {/*  Curiculam Tab */}
+                                    {/*
                                     { contentTab === 'curriculum' && 
                                         <div className={`tab-pane fade show ${contentTab === 'curriculum' ? 'active' : '' } `}>
                                             <div className="course-tab-content">
@@ -187,6 +191,7 @@ const CourseDetails = () => {
                                             </div>
                                         </div>
                                     }
+                                    */}
                                     
                                     {/*  INstructor Tab */}
                                     {/*  
