@@ -10,17 +10,17 @@ class ContactInfo extends Component {
                 {
                     id: 1,
                     icon: 'fa fa-envelope',
-                    title: 'support@email.com',
+                    title: 'support@clatechacademy.com',
                 },  
                 {
                     id: 2,
                     icon: 'fa fa-phone-alt',
-                    title: '+45 234 345467',
+                    title: '+25470000000',
                 },  
                 {
                     id: 3,
                     icon: 'fa fa-map-marker',
-                    title: 'Moon Street Light Avenue, 14/05 Jupiter ',
+                    title: '',
                 },
                 
             ]

@@ -96,8 +96,8 @@ const HeaderTwo= () => {
                         </nav>
             
                         <div className="header-btn d-none d-xl-block">
-                            <Link to="/login" className="btn btn-main-2 btn-sm-2 rounded" style={{ backgroundColor: '#fe9422', borderColor: '#fe9422', marginRight: '10px', transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.target.style.backgroundColor = '#ff4457'} onMouseLeave={(e) => e.target.style.backgroundColor = '#fe9422'}>Register</Link>
-                            <Link to="/register" className="btn btn-main-2 btn-sm-2 rounded" style={{ backgroundColor: '#fe9422', borderColor: '#fe9422', transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.target.style.backgroundColor = '#ff4457'} onMouseLeave={(e) => e.target.style.backgroundColor = '#fe9422'}>Apply as a Trainer</Link>
+                            <Link to="/login" className="btn btn-main-2 btn-sm-2 rounded" style={{ backgroundColor: '#F14D5D', borderColor: '#F14D5D', marginRight: '10px', transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.target.style.backgroundColor = '#fe9422'} onMouseLeave={(e) => e.target.style.backgroundColor = '#F14D5D'}>Register</Link>
+                            <Link to="/register" className="btn btn-main-2 btn-sm-2 rounded" style={{ backgroundColor: '#F14D5D', borderColor: '#F14D5D', transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.target.style.backgroundColor = '#fe9422'} onMouseLeave={(e) => e.target.style.backgroundColor = '#F14D5D'}>Apply as a Trainer</Link>
                         </div>
                     </div>
                 </div>

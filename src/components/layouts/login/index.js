@@ -1,4 +1,4 @@
 import PageBanner from '../common/PageBanner';
-import LoginForm from './LoginForm';
+import RegisterForm from './LoginForm';
 
-export {PageBanner,LoginForm}
+export {PageBanner,RegisterForm}

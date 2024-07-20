@@ -1,5 +1,5 @@
-import React , { useState } from 'react';
-import emailjs from 'emailjs-com';
+import React , { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Result = () => {
     return (
@@ -9,16 +9,18 @@ const Result = () => {
 
 function ContactUsForm( { formStyle } ) {
     const [result, setResult] = useState( false );
+    const form = useRef();
 
     const sendEmail = ( e ) => {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_bxh6md3', 
-            'template_1g7v07n', 
-            e.target, 
-            'user_8Lx0gfI1ktOoeEN8DTV10'
-        )
+            'service_eu2crfq', 
+            'template_ajidrx4', 
+            form.current, 
+            {
+                publicKey: 'yPawXT1HVf2jLGFot',
+        })
         .then( ( result ) => {
             console.log( result.text );
             }, 
@@ -35,7 +37,7 @@ function ContactUsForm( { formStyle } ) {
     }, 5000);
 
     return (
-        <form className={`${ formStyle }`} action="" onSubmit={ sendEmail }>
+        <form className={`${ formStyle }`} ref={form} action="" onSubmit={ sendEmail }>
             <div className="row">
                 <div className="col-lg-6">
                     <div className="form-group">

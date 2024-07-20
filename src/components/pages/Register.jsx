@@ -8,7 +8,7 @@ const Register = () => {
         <div className="">       
             <Layout>       
                 <PageBanner
-                    title="Register"
+                    title="Become a Teacher"
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Sign up"

@@ -12,10 +12,13 @@ class CourseGrid extends Component {
                 <div className="course-top-wrap">
                     <div className="container">
                         <div className="row align-items-center">
+                            {/*
                             <div className="col-lg-8">
                                 <p>Showing 1-6 of 8 results</p>
                             </div>
-            
+                            */}
+
+                            {/*
                             <div className="col-lg-4">
                                 <div className="topbar-search">
                                     <form method="get" action="#">
@@ -24,6 +27,7 @@ class CourseGrid extends Component {
                                     </form>
                                 </div>
                             </div>
+                            */}
                         </div>
                     </div>
                 </div>

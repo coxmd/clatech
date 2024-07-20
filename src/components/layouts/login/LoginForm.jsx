@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class LoginForm extends Component {
+class RegisterForm extends Component {
 
     render() {
 
@@ -12,27 +12,36 @@ class LoginForm extends Component {
                         <div className="col-md-6 col-xl-6">
                             <div className="login-form">
                                 <div className="form-header">
-                                    <h2 className="font-weight-bold mb-3">Login</h2>
-                
+                                    <h2 className="font-weight-bold mb-3">Register as a student</h2>
+
+                                    {/*
                                     <div className="info">
                                         <span>Don't have an account yet?  </span>
                                         <Link to="/register" className="text-decoration-underline">Sign Up for Free</Link>
                                     </div>
+                                    */}
                                 </div>
 
                                 <form className="login login-register-form " method="post">
                                     <div className="form-row">
-                                        <label>Username or email address&nbsp;<span className="required">*</span></label>
+                                        <label>Name&nbsp;<span className="required">*</span></label>
 
-                                        <input type="text" className="form-control" placeholder="Username or Email"/>
+                                        <input type="text" className="form-control" placeholder="Name"/>
                                     </div>
 
                                     <div className="form-row">
-                                        <label>Password&nbsp;<span className="required">*</span></label>
+                                        <label>Email address&nbsp;<span className="required">*</span></label>
 
-                                        <input className="form-control" type="password" placeholder="Password"/>
+                                        <input type="text" className="form-control" placeholder="Email"/>
                                     </div>
-                                
+
+                                    <div className="form-row">
+                                        <label>Phone Number&nbsp;<span className="required">*</span></label>
+
+                                        <input className="form-control" type="password" placeholder="Phone Number"/>
+                                    </div>
+                                    
+                                    {/*
                                     <div className="d-flex align-items-center justify-content-between py-2">
                                         <div className="form-row">
                                             <input type="checkbox" /> <span>Remember me</span>
@@ -42,9 +51,9 @@ class LoginForm extends Component {
                                             <Link to="#">Forgot password?</Link>
                                         </p>
                                     </div>
-                
+                                    */}
                                     <div className="form-row">
-                                        <button type="submit">Log in</button>
+                                        <button type="submit">Register</button>
                                     </div>
                                 </form>
                             </div>
@@ -57,4 +66,4 @@ class LoginForm extends Component {
     }
 }
 
-export default LoginForm;
+export default RegisterForm;

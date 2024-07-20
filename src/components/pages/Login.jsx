@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageBanner,LoginForm}  from '../layouts/login/index';
+import { PageBanner,RegisterForm}  from '../layouts/login/index';
 import Layout from '../../common/Layout';
 
 const Login = () =>{
@@ -7,12 +7,12 @@ const Login = () =>{
         <div className="">       
             <Layout>       
                     <PageBanner
-                        title="Login"
+                        title="Register"
                         rootUrl="/"
                         parentUrl="Home"
-                        currentUrl="Login Form"
+                        currentUrl="Registration Form"
                         />
-                    <LoginForm />
+                    <RegisterForm />
             </Layout>
         </div>
     );
