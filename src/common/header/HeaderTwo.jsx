@@ -35,19 +35,19 @@ const HeaderTwo= () => {
                         <div className="row justify-content-between align-items-center">
                             <div className="col-xl-8 col-lg-8 col-sm-6">
                                 <div className="header-contact text-center text-sm-start text-lg-start">
-                                    <Link to="#">1010 Moon ave, New York, NY US</Link>
+                                    <Link to="#"></Link>
                                 </div>
                             </div>
 
                             <div className="col-xl-4 col-lg-4 col-sm-6">
                                 <div className="header-socials text-center text-lg-end">
-                                    <ul className="list-inline">
+                                    {/* <ul className="list-inline">
                                         <li className="list-inline-item"><Link to=""><i className="fab fa-facebook-f"></i></Link></li>
                                         <li className="list-inline-item"><Link to="#"><i className="fab fa-twitter"></i></Link></li>
                                         <li className="list-inline-item"><Link to="#"><i className="fab fa-linkedin-in"></i></Link></li>
                                         <li className="list-inline-item"><Link to="#"><i className="fab fa-pinterest"></i></Link></li>
                                         <li className="list-inline-item"><Link to="#"><i className="fab fa-youtube"></i></Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const HeaderTwo= () => {
                     <div className="d-flex align-items-center justify-content-between">
                         <div className="site-logo">
                             <Link to="#">
-                                <img src={`${process.env.PUBLIC_URL}/assets/images/logo.png`} alt="Course Thumb" class="img-fluid"/>
+                                <img src={`${process.env.PUBLIC_URL}/assets/images/logocla-resized.png`} alt="Course Thumb" class="img-fluid"/>
                             </Link>
                         </div>
             
@@ -66,7 +66,7 @@ const HeaderTwo= () => {
                             <a href="#" onClick={openMenu} className="nav-toggler"><i className="fal fa-bars"></i></a> 
                         </div>
             
-                        <div className="header-category-menu d-none d-xl-block">
+                        {/* <div className="header-category-menu d-none d-xl-block">
                             <ul>
                                 <li className="has-submenu">
                                     <Link to="#"><i className="fa fa-th me-2"></i>Categories</Link>
@@ -85,7 +85,7 @@ const HeaderTwo= () => {
                                     </ul>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
             
                         <nav className={ `site-navbar ms-auto ${ isMenuOpen ? 'menu-on': ''}` }>
                             <Nav/>
@@ -96,8 +96,8 @@ const HeaderTwo= () => {
                         </nav>
             
                         <div className="header-btn d-none d-xl-block">
-                            <Link to="/login" className="login">Login</Link>
-                            <Link to="/register" className="btn btn-main-2 btn-sm-2 rounded">Sign up</Link>
+                            <Link to="/login" className="btn btn-main-2 btn-sm-2 rounded" style={{ backgroundColor: '#fe9422', borderColor: '#fe9422', marginRight: '10px', transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.target.style.backgroundColor = '#ff4457'} onMouseLeave={(e) => e.target.style.backgroundColor = '#fe9422'}>Register</Link>
+                            <Link to="/register" className="btn btn-main-2 btn-sm-2 rounded" style={{ backgroundColor: '#fe9422', borderColor: '#fe9422', transition: 'background-color 0.3s' }} onMouseEnter={(e) => e.target.style.backgroundColor = '#ff4457'} onMouseLeave={(e) => e.target.style.backgroundColor = '#fe9422'}>Apply as a Trainer</Link>
                         </div>
                     </div>
                 </div>

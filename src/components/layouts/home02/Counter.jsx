@@ -17,10 +17,10 @@ class Counter extends Component {
                 {
                     id: 2,
                     icon: 'flaticon-infographic',
-                    title: '120',
+                    title: '7',
                     suffix: '+',
                     text: 'Online Courses',
-                    extraClassName: 'bg-2',
+                    extraClassName: 'bg-5',
                 },
                 {
                     id: 3,
@@ -28,7 +28,7 @@ class Counter extends Component {
                     title: '100',
                     suffix: '%',
                     text: 'Satisfaction',
-                    extraClassName: 'bg-3',
+                    extraClassName: 'bg-5',
                 },
             ]
         }
