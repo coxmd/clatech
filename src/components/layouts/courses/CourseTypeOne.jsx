@@ -13,10 +13,10 @@ const CourseTypeOne = ({ data, classes }) => {
                             data.price === '0' ?
                                 <div className="price current-price">Free</div>
                             :
-                                <div className="price current-price">${data.price}</div>
+                                <div className="price current-price">Ksh {data.price}</div>
                         }
                         { 
-                            data.oldPrice && <div className="price old-price">${data.oldPrice}</div> 
+                            data.oldPrice && <div className="price old-price">Ksh {data.oldPrice}</div> 
                         }
                     </div>
                 </div>
