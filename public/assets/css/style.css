@@ -635,7 +635,7 @@ Main Menu header
   margin-right: 40px;
 }
 .header-navbar .site-logo a {
-  max-width: 140px;
+  width: 140px;
 }
 
 .header-navbar .primary-menu {

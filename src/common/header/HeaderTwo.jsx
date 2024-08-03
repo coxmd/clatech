@@ -58,7 +58,7 @@ const HeaderTwo= () => {
                     <div className="d-flex align-items-center justify-content-between">
                         <div className="site-logo">
                             <Link to="#">
-                                <img src={`${process.env.PUBLIC_URL}/assets/images/logocla-resized.png`} alt="Course Thumb" class="img-fluid"/>
+                                <img src={`${process.env.PUBLIC_URL}/assets/images/clafinal.png`} alt="Course Thumb" class="img-fluid"/>
                             </Link>
                         </div>
             
