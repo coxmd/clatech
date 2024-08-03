@@ -2762,7 +2762,7 @@ portflio filter
 .course-style-5 .course-price {
   position: absolute;
   bottom: 0px;
-  left: -130px;
+  left: 0px;
   background: var(--theme-primary-color);
   padding: 12px 15px;
   color: #fff;
@@ -2771,7 +2771,7 @@ portflio filter
   transition: all 0.4s ease;
   display: flex;
   align-items: center;
-  opacity: 0;
+  opacity: 1;
 }
 
 .course-price .price.old-price{
@@ -2796,10 +2796,12 @@ portflio filter
 .course-style-5:hover .course-thumb img {
   transform: scale(1.1);
 }
+/*
 .course-style-5:hover .course-price {
   left: 0px;
   opacity: 1;
 }
+*/
 
 
 .meta-style-1 span {
