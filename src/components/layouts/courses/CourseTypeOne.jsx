@@ -37,6 +37,15 @@ const CourseTypeOne = ({ data, classes }) => {
                         <i className="fa fa-long-arrow-right"></i>
                     </Link>
                 </div>
+
+                {/* New section for MERCH */}
+                <div className="course-merch mt-20">
+                    <p>Complete this course and get:</p>
+                    <ul>
+                        <li>{data.certification}</li>
+                        <li>Exclusive Course T-Shirt</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

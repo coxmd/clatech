@@ -2774,6 +2774,28 @@ portflio filter
   opacity: 1;
 }
 
+.course-style-5 .course-merch {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.course-style-5 .course-merch p {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.course-style-5 .course-merch ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.course-style-5 .course-merch ul li {
+  margin-bottom: 5px;
+}
+
 .course-price .price.old-price{
   text-decoration: line-through;
   opacity: .6;

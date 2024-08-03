@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title": "Programming Languages bootcamp",
+        "certification": "Certified Programmer",
         "image": "course-01.jpg",
         "instructor": "",
         "duration": "1 month",
@@ -27,6 +28,7 @@
     {
         "id": 2,
         "title": "Web Development",
+        "certification": "Certified Web Developer",
         "image": "course-02.jpg",
         "instructor": "",
         "duration": "3 Months",
@@ -49,6 +51,7 @@
     {
         "id": 3,
         "title": "Data Science & Analytics",
+        "certification": "Certified Data Analyst",
         "image": "course-03.jpg",
         "instructor": "",
         "duration": "3 Months",
@@ -70,6 +73,7 @@
     {
         "id": 4,
         "title": "Cybersecurity",
+        "certification": "Certified Cyber Security Specialist",
         "image": "course-04.jpg",
         "instructor": "",
         "duration": "2 Months",
@@ -95,6 +99,7 @@
     {
         "id": 5,
         "title": "Software Development",
+        "certification": "Certified Software Developer",
         "image": "course-05.jpg",
         "instructor": "",
         "duration": "4 Months",
@@ -121,6 +126,7 @@
     {
         "id": 6,
         "title": "Digital Marketing",
+        "certification": "Certified Digital Marketer",
         "image": "course-06.jpg",
         "instructor": "",
         "duration": "2 Months",
