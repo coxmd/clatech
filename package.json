@@ -1,5 +1,6 @@
 {
   "name": "edumel",
+  "homepage": "https://clatechacademy.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
