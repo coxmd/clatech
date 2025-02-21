@@ -16,7 +16,7 @@ class Features extends Component {
                     id: 2,
                     icon: 'far fa-file-certificate',
                     title: 'Unbeatable Value',
-                    text: 'CLA TECH ACADEMY offers some of the most affordable courses in Kenya, starting at just Ksh 10,000 – significantly lower than competitors like ALX.  We also understand that financial barriers exist, so we offer scholarships to deserving students.',
+                    text: 'IVY TECH ACADEMY offers some of the most affordable courses in Kenya, starting at just Ksh 10,000 – significantly lower than competitors like ALX.  We also understand that financial barriers exist, so we offer scholarships to deserving students.',
                     extraClassName: 'icon-bg-2',
                 },
                 {

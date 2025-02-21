@@ -10,12 +10,12 @@ class ContactInfo extends Component {
                 {
                     id: 1,
                     icon: 'fa fa-envelope',
-                    title: 'support@clatechacademy.com',
+                    title: 'info@ivytechacademy.com',
                 },  
                 {
                     id: 2,
                     icon: 'fa fa-phone-alt',
-                    title: '+25470000000',
+                    title: '+254701550531',
                 },  
                 {
                     id: 3,

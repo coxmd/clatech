@@ -15,11 +15,11 @@ function RegisterForm() {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_eu2crfq', 
-            'template_9zuks05', 
+            'service_h8dg5id', 
+            'template_eyu6yyo', 
             form.current, 
             {
-                publicKey: 'yPawXT1HVf2jLGFot',
+                publicKey: 'htIW-UeWZXnj8rnYs',
         })
         .then((result) => {
             console.log(result.text);

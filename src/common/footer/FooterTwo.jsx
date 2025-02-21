@@ -64,8 +64,8 @@ const FooterTwo = () => {
                             <div className="footer-widget mb-5 mb-xl-0">
                                 <h5 className="widget-title">Address</h5>
                                 <ul className="list-unstyled footer-links">
-                                    <li><h6 className="text-white">Phone</h6><Link to="#">070000000</Link></li>
-                                    <li><h6 className="text-white">Email</h6><Link to="#">support@clatechacademy.com</Link></li>
+                                    <li><h6 className="text-white">Phone</h6><Link to="#">0701550531</Link></li>
+                                    <li><h6 className="text-white">Email</h6><Link to="#">info@ivytechacademy.com</Link></li>
                                 </ul>
                                 {/*
                                 <div className="footer-socials mt-4">

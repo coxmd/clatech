@@ -43,7 +43,7 @@ class Counter extends Component {
                         <div className="col-xl-5 pr-xl-5 col-lg-8">
                             <div className="section-heading mb-5 mb-xl-0 text-center text-xl-start">
                                 <span className="subheading">Join Thousands of Learners Worldwide</span>
-                                <h2 className="font-lg">Why Choose CLA TECH ACADEMY?</h2>
+                                <h2 className="font-lg">Why Choose IVY TECH ACADEMY?</h2>
                             </div>
                         </div>
 
